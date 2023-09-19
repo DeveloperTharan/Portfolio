@@ -1,0 +1,26 @@
+@media (max-width: 425px) {
+  .social {
+    margin-bottom: 60px;
+  }
+  .social i {
+    font-size: 20px;
+  }
+  .about-contant {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .about-contant {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .social {
+    margin-bottom: 60px;
+  }
+  .social i {
+    font-size: 25px;
+  }
+}

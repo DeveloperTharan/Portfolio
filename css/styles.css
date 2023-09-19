@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar */
+.logo {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 25px;
+  color: #cc005f;
+}
+
+/* Home section */
+.header {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background: #151515 url("../images/intro-bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home_lg {
+  color: #cc005f;
+  text-transform: uppercase;
+  font-family: "lora-regular", serif;
+}
+
+.home_xxl {
+  color: white;
+  font-family: "lora-regular", serif;
+}
+
+.home_md {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: "lora-regular", serif;
+}
+
+.home_btn_text {
+  text-transform: capitalize;
+}
+
+.social {
+  display: flex;
+  position: relative;
+  top: 140px;
+}
+
+.social_icon1 {
+  font-size: 30px;
+  color: white;
+  margin: 13px;
+}
+
+.social_icon2 {
+  font-size: 30px;
+  color: white;
+  margin: 13px;
+}
+
+.social_icon3 {
+  font-size: 30px;
+  color: white;
+  margin: 13px;
+}
+
+.social_icon4 {
+  font-size: 30px;
+  color: white;
+  margin: 13px;
+}
+
+.social_icon1:hover {
+  color: #cc005f;
+}
+
+.social_icon2:hover {
+  color: #696767;
+}
+
+.social_icon3:hover {
+  color: #0e39fa;
+}
+
+.social_icon4:hover {
+  color: #696767;
+}
+
+/* About section */
+.about {
+  background-color: #f4f4f4;
+}
+
+.about_heading {
+  text-transform: uppercase;
+  color: #cc005f;
+  font-family: "lora", serif;
+}
+
+.about-contant {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.img-about {
+  width: 200px;
+}
+
+.about_lg {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: "lora", serif;
+}
+
+.about-text {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "lora", serif;
+}
+
+/* profile & skills section */
+.profile-skills {
+  background-color: #f4f4f4;
+}
+
+.ps_li_list {
+  background-color: #f4f4f4;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.profilt_heading {
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.profile_para {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  width: 70%;
+}
+
+.profile_details {
+  font-family: "lora", serif;
+}
+
+.profile_icon {
+  color: #cc005f;
+}
+
+.skills_heading {
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.skills_para {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  width: 70%;
+}
+
+.skills-type {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  width: 70%;
+  font-weight: 500;
+}
+
+.skills-icon {
+  color: #cc005f;
+  font-size: 20px;
+  font-family: "lora", serif;
+}
+
+.skill-items {
+  margin-bottom: 20px;
+  font-family: "lora", serif;
+}
+
+.button_p {
+  text-align: start;
+  font-family: "lora", serif;
+}
+
+.btn_profile {
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  text-decoration: none;
+  border: 0;
+  background-color: #cc005f;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 30px;
+}
+
+/* portfoili section */
+.portfolio {
+  padding: 100px 0;
+  background-color: #f4f4f4;
+}
+
+.portfolio-heading {
+  text-transform: uppercase;
+  color: #cc005f;
+  font-family: "lora", serif;
+}
+
+.portfolio-para {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "lora", serif;
+  margin-bottom: 50px;
+}
+
+.project-img {
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.project-img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+
+.project-heading {
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  font-weight: 600;
+}
+
+.project-desc {
+  text-transform: capitalize;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.project-stacks {
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  font-weight: 600;
+}
+
+.stacks-icon {
+  color: #cc005f;
+  margin: 0 6px;
+  font-size: 17px;
+}
+
+.project-links {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.project-link {
+  font-size: 20px;
+  color: #000;
+}
+
+/* services section */
+.services {
+  background-color: #f4f4f4;
+}
+
+.services_heading {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  font-weight: 600;
+}
+
+.services_lg {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  font-weight: 300;
+}
+
+.services_para {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  margin-top: 20px;
+}
+
+.services_list {
+  margin-top: 30px;
+}
+
+.services_icon {
+  color: #cc005f;
+  cursor: pointer;
+}
+
+.services_icon_heading {
+  text-transform: capitalize;
+  font-size: 23px;
+  font-family: "lora", serif;
+  cursor: pointer;
+}
+
+.services_icon_para {
+  font-family: "lora", serif;
+  cursor: pointer;
+}
+
+.services_list:hover .services_icon {
+  color: #000;
+}
+
+/* contact section */
+.contact {
+  background-color: #000;
+  color: #f4f4f4;
+}
+
+.contact_heading {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "lora", serif;
+  font-weight: 600;
+  color: #cc005f;
+}
+
+.contact_lg {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  color: #f4f4f4;
+  font-size: 15px;
+}
+
+.contact_para {
+  text-transform: capitalize;
+  font-family: "lora", serif;
+  margin-top: 20px;
+  font-size: 13px;
+  width: 80%;
+}
+
+.contact_icon {
+  color: #cc005f;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.contact_icon_txt {
+  font-size: 15px;
+}
+
+.social_items {
+  color: #000;
+  margin: 10px;
+}
+
+.contact_social_icons {
+  font-size: 22px;
+  color: white;
+}
+
+.contact_social_icons:hover {
+  color: #cc005f;
+}
+
+#my-form {
+  margin-top: 120px;
+}
+
+.form {
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #cc005f;
+  outline: none;
+  background: #000;
+  padding: 15px;
+  margin: 10px 0;
+  color: #f4f4f4;
+}
+
+.btn_contact {
+  border: 0;
+  border-radius: 6px;
+  padding: 4px 20px;
+  background-color: #cc005f;
+  color: white;
+}
+
+.footer {
+  margin-top: 90px;
+  margin-bottom: -50px;
+}
+
+.footer_para {
+  font-size: 15px;
+}
